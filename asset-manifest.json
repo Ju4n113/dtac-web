@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dtac-web/static/css/main.e59d74f5.css",
+    "main.js": "/dtac-web/static/js/main.2f5ede1f.js",
+    "static/js/453.699f82d8.chunk.js": "/dtac-web/static/js/453.699f82d8.chunk.js",
+    "index.html": "/dtac-web/index.html",
+    "main.e59d74f5.css.map": "/dtac-web/static/css/main.e59d74f5.css.map",
+    "main.2f5ede1f.js.map": "/dtac-web/static/js/main.2f5ede1f.js.map",
+    "453.699f82d8.chunk.js.map": "/dtac-web/static/js/453.699f82d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e59d74f5.css",
+    "static/js/main.2f5ede1f.js"
+  ]
+}
