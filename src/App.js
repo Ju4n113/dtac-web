@@ -13,9 +13,8 @@ function App() {
   return (
     <Router>
       <div className="App">
-      {window.location.pathname !== '/' && <NavBar />} {/* Condición para no renderizar NavBar en Login */}
         <Routes>
-          <Route path="/" element={<Login />} />
+          <Route path="/dtac-web/" element={<Login />} />
           <Route path="/home" element={<Home />} />
           <Route path="/content" element={<Content />} />
           <Route path="/deliveries" element={<Deliveries />} />

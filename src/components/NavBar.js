@@ -6,8 +6,8 @@ function NavBar() {
   return (
     <nav className="navbar">
       <NavLink to="/home" activeClassName="active-link">Home</NavLink>
-      <NavLink to="/content" activeClassName="active-link">Content</NavLink>
-      <NavLink to="/deliveries" activeClassName="active-link">Deliveries</NavLink>
+      <NavLink to="/content" activeClassName="active-link">Ejercitaciones</NavLink>
+      <NavLink to="/deliveries" activeClassName="active-link">Entregas</NavLink>
       {/* <NavLink to="/profile" activeClassName="active-link">Profile</NavLink> */}
     </nav>
   );

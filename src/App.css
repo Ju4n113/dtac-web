@@ -1,34 +1,39 @@
-/* Global styles */
+/** Global styles **/
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #f4f4f9;
+  background-color: #748DA3;
+
 }
 
 .App {
   text-align: center;
 }
 
-/* NavBar styles */
+/** NavBar styles **/
 .navbar {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #fff;
-  border-top: 1px solid #ddd;
+  background-color: #333333;
   display: flex;
   justify-content: space-around;
   padding: 10px 0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 20px 0;
 }
 
 .navbar a {
   text-decoration: none;
-  color: #000;
-  font-size: 18px;
+  color: #B7E0ED;
+  font-size: 23px;
 }
 
 .navbar a.active {
-  color: #007bff;
+  color: #ffffff;
+  text-shadow: 0px 0px 10px rgb(255, 255, 255);
+
 }
 
 /* Home styles */
@@ -61,7 +66,7 @@ body {
   align-items: center;
 }
 
-/* Content styles */
+/** Content styles **/
 .content {
   padding: 20px;
 }
@@ -79,9 +84,15 @@ body {
   border-radius: 5px;
 }
 
-/* Deliveries styles */
+/** Deliveries styles **/
 .deliveries {
   padding: 20px;
+}
+
+.deliveries img{
+  height: 80vh;
+  width: 80vh;
+  object-fit: cover;
 }
 
 .deliveries .delivery {
@@ -95,7 +106,7 @@ body {
   align-items: center;
 }
 
-/* Exercise styles */
+/** Exercise styles **/
 .exercise {
   padding: 20px;
 }
@@ -113,7 +124,7 @@ body {
   border-radius: 5px;
 }
 
-/* Profile styles */
+/** Profile styles **/
 .profile {
   padding: 20px;
 }
@@ -141,42 +152,67 @@ body {
   border-radius: 5px;
 }
 
-/* Login styles */
+/** Login styles **/
 .login {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   height: 100vh;
-  background-color: #007bff;
+  background-color: #333333;
+  position: relative; /* Añadido para posicionar la circunferencia */
+  overflow: hidden; /* Para evitar el scroll */
+
 }
 
-.login .login-card {
-  background-color: #fff;
+.login h1 {
+  color: #B7E0ED;
+  font-size: 50px;
+  z-index: 1;
+}
+
+.login p {
+  color: #FFFFFF;
+  margin-bottom: 20vh;
+  z-index: 1;
+}
+
+.login img {
+  width: 25vh;
+  height: 25vh;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.login button {
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.login .login-card input {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-}
-
-.login .login-card button {
-  width: 100%;
-  padding: 10px;
-  background-color: #007bff;
+  display: flex;
+  background-color: #333333;
   border: none;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 15px;
   cursor: pointer;
+  width: 40%;
+  z-index: 1;
+  font-size: large;
+  flex-direction: column;
+  align-items: center;
 }
 
-.login .login-card button:hover {
-  background-color: #0056b3;
+.circle {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%) translateY(50%);
+  width: 100%; /* Ajusta el tamaño según tus necesidades */
+  height: 70%; /* Ajusta el tamaño según tus necesidades */
+  background-color: #748da3; /* Color de la circunferencia */
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.login button:hover {
+  background-color: #5f5f5f;
 }
 
 /** Ejercitacion styles **/
