@@ -2,7 +2,7 @@
   "name": "dtac-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ju4n113.github.io/dtac-web",
+  "homepage": "https://ju4n113.github.io/dtac-web/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
