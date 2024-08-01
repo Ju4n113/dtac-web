@@ -1,9 +1,12 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../App.css';
 
-function Login({ history }) {
+function Login() {
+  const navigate = useNavigate();
+
   const handleLogin = () => {
-    history.push('/home');
+    navigate('/home');
   };
 
   return (
