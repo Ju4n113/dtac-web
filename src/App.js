@@ -13,6 +13,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+      {window.location.pathname !== '/' && <NavBar />} {/* Condición para no renderizar NavBar en Login */}
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/home" element={<Home />} />
