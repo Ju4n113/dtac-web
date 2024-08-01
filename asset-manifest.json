@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/dtac-web/static/css/main.e59d74f5.css",
-    "main.js": "/dtac-web/static/js/main.a0fbf092.js",
+    "main.css": "/dtac-web/static/css/main.954ba5b2.css",
+    "main.js": "/dtac-web/static/js/main.ffc345dc.js",
     "static/js/453.699f82d8.chunk.js": "/dtac-web/static/js/453.699f82d8.chunk.js",
+    "static/media/construccion.png": "/dtac-web/static/media/construccion.3d5b73af9daca7cebf32.png",
+    "static/media/logo.jpeg": "/dtac-web/static/media/logo.0fa574d0735193dfec26.jpeg",
     "index.html": "/dtac-web/index.html",
-    "main.e59d74f5.css.map": "/dtac-web/static/css/main.e59d74f5.css.map",
-    "main.a0fbf092.js.map": "/dtac-web/static/js/main.a0fbf092.js.map",
+    "main.954ba5b2.css.map": "/dtac-web/static/css/main.954ba5b2.css.map",
+    "main.ffc345dc.js.map": "/dtac-web/static/js/main.ffc345dc.js.map",
     "453.699f82d8.chunk.js.map": "/dtac-web/static/js/453.699f82d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e59d74f5.css",
-    "static/js/main.a0fbf092.js"
+    "static/css/main.954ba5b2.css",
+    "static/js/main.ffc345dc.js"
   ]
 }
