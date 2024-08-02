@@ -88,12 +88,19 @@ body {
 
 .calendar-section {
   margin-top: 20px;
+  width: 100%;
   margin-bottom: 40px;
-  padding: 20px 40px;
+  padding: 20px 5px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .calendar-section {
+    width: 65%;
+  }
 }
 
 .calendar-section h3 {
@@ -103,11 +110,17 @@ body {
 }
 
 .calendar-container {
-  display: flex;
-  justify-content: center;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 60vh;
 }
 
+.calendar-container iframe {
+  width: 100%;
+  height: 600px;
+}
 
 
 /** Content styles **/
@@ -140,10 +153,18 @@ body {
 }
 
 .deliveries img{
-  height: 80vh;
-  width: 80vh;
+  height: auto;
+  width: 100%;
   object-fit: cover;
 }
+
+@media (min-width: 768px) {
+  .deliveries img{
+    height: 80vh;
+    width: 80vh;
+    object-fit: cover;
+  }
+  }
 
 .deliveries .delivery {
   background-color: #fff;
